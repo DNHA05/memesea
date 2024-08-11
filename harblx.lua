@@ -445,7 +445,7 @@ end
 local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RedzLibV5/main/Source.Lua"))()
 local Window = redzlib:MakeWindow({ Title = "r/BC Hub : Meme Sea", SubTitle = "by harblx", SaveFolder = "r/BCHub-MemeSea.json" })
 Window:AddMinimizeButton({
-  Button = { Image = "rbxassetid://18906030756", BackgroundTransparency = 0 },
+  Button = { Image = "rbxassetid://18906030714", BackgroundTransparency = 0 },
   Corner = { CornerRadius = UDim.new(0, 6) }
 })
 
@@ -471,9 +471,9 @@ end
 
 local _Discord = Tabs.Discord do
   _Discord:AddDiscordInvite({
-    Name = "r/BC Hub | Community",
+    Name = "r/Byass Community",
     Description = "Join our discord community to receive information about the next update",
-    Logo = "rbxassetid://18906030756",
+    Logo = "rbxassetid://18906406107",
     Invite = "https://discord.gg/Px6HGsY7JT"
   })
 end
